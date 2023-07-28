@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/bootstrap.bundle.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tangerine&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <!-- google font  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Niconne&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- style sheet linking -->
+    <link rel="stylesheet" href="css/product.css">
+
+
+</head>
+<body>
+    
+<!-- nar bar begin --> <!--style="background-image: url(images/bg-02.jpg);-->
+<nav class="navbar navbar-expand-lg sticky-top bg-white">
+    <div class="container">
+        <span>
+            <i class="fa-solid fa-person-walking-luggage" id="nav_i"></i>
+        </span>
+      <a class="navbar-brand" href="index.html">NZ-Fashion</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <span> <a href="search_bar.html"><i class="fa-solid fa-magnifying-glass" style="padding: 10px;" id="fi"></i></a>
+            </span>
+            <span><a href=""><i class="fa-solid fa-cart-shopping" style="padding: 10px;" id="fi" ></i></a></span>
+            <span><a href="login_page.html"><i class="fa-solid fa-user" style="padding: 10px;" id="fi"></i></a></span>
+        </form>
+      </div>
+    </div>
+</nav>
+<!-- nav bar end -->
+
+<div class="container pc1">
+	<div class="container btn justify-content-center d-flex mb-4">
+		<a href="men.html" class="btn_lm" style="margin-right: 10px;"><h4>Men's</h4></a>
+		<a href="women.html" class="btn_lm" style="margin-right: 10px;"><h4>Women's</h4></a>
+		<a href="kids.html" class="btn_lm" style="margin-right: 10px;"><h4>Kids</h4></a>
+		<a href="accessories.html" class="btn_lm" style="margin-right: 10px;"><h4>Accessories</h4></a>
+	</div>
+	<div class="row">
+		<div class="col text-center my-4">
+			<h1 class="fs-2">ALL THE PRODUCTS</h1>
+			<div class="underline mx-auto mt-3"></div>
+		</div>
+	</div>
+
+	<div class="row mt-3 mb-4 button-group filter-button-group">
+		<div class="col d-flex justify-content-center">
+			<button type="button" data-filter="*" class="btn btn-primary mx-1 text-dark ">All</button>
+			<button type="button" data-filter=".womens" class="btn btn-primary mx-1 text-dark ">Women's</button>
+			<button type="button" data-filter=".mens" class="btn btn-primary mx-1 text-dark ">Men's</button>
+			<button type="button" data-filter=".kids" class="btn btn-primary mx-1 text-dark  ">Kid's</button>
+			<button type="button" data-filter=".accessories" class="btn btn-primary mx-1 text-dark  ">Accessories</button>
+		</div>
+	</div>
+
+
+	<div class="row justify-content-center g-4" id="product-list" >
+		<div class="col-lg-4 col-md-6 accessories">
+			<div class="product-item">
+				<div class="product-img ">
+					<img src="images/product-06.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view1.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Black Strape Watch</span>
+						<span class="d-block">$ 205.25</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/61Pl51aDJ-L._AC_UX569__1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view2.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">pink party frock girl</span>
+						<span class="d-block">$ 133.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-08.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view3.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">t-shirt for girls</span>
+						<span class="d-block">$ 65.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-6 accessories">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-09.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view4.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Canvas ankle shoe</span>
+						<span class="d-block">$ 75.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 accessories">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/sarong1_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view5.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">SL Traditional Sarong </span>
+						<span class="d-block">$ 54.25</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-10.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view6.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">inside Black t-shirt</span>
+						<span class="d-block">$ 35.25</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-6 mens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-11.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view7.html"><button class="btnc">View Product</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Blue shirt - men</span>
+						<span class="d-block">$ 134.25</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/tshirt1_1200x1486.jpg"  class="img-fluid d-block mx-auto" height="1486px" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view8.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">White SWG T-shirt</span>
+						<span class="d-block">$ 89.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 accessories">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-12.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view9.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Lather belt</span>
+						<span class="d-block">$ 200.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/Shalwar_img3_1200x1486.jpeg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view10.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">cotton shalwar for girl</span>
+						<span class="d-block">$ 105.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 accessories">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/sarong2_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view11.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">SL Traditional Sarong</span>
+						<span class="d-block">$ 67.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images//flat-hill_1200x1486.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view12.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Flat heal</span>
+						<span class="d-block">$ 58.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-13.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view13.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">White t-shirt girl</span>
+						<span class="d-block">$ 34.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/habaya3.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view14.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Women's Muslim Dresses Abaya</span>
+						<span class="d-block">$ 45.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/bottom5_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view15.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">girl leagins </span>
+						<span class="d-block">$ 25.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/tshirt2_1200x1486.jpg"  class="img-fluid d-block mx-auto" height="1486px" alt="">
+					<div class="icon_inside" id="re">
+                        <span><i class="fa-solid fa-cart-plus"></i></span>
+                    </div>
+					<a href="product_view16.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">black t-shirt for men</span>
+						<span class="d-block">$ 102.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 mens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/fit_shirt.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+                        <span><i class="fa-solid fa-cart-plus"></i></span>
+                    </div>
+					<a href="product_view17.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">high cotton shirt</span>
+						<span class="d-block">$ 154.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/tommy_hilfigure.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view18.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Cotton shirt man</span>
+						<span class="d-block">$ 123.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/Shalwar_img10_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view19.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Shalwar [silk]</span>
+						<span class="d-block">$ 55.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/shoe-2_1200x1486.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view20.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Blue Snekers [boys]</span>
+						<span class="d-block">$ 68.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 accessories">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/sarong6_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view21.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">SL Traditional Sarong</span>
+						<span class="d-block">$ 67.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/Shalwar_img4_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view22.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">moden Shalwar [cotten]</span>
+						<span class="d-block">$ 85.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/tshirt3_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view23.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Long slive t-shirt man</span>
+						<span class="d-block">$ 63.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-15.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view24.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">chain strap watch</span>
+						<span class="d-block">$ 123.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-16.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view25.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">full kit for women</span>
+						<span class="d-block">$ 83.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/Shalwar_img9_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view26.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Shalwar [silk]</span>
+						<span class="d-block">$ 55.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-detail-01.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view27.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">blue jacket for man</span>
+						<span class="d-block">$ 153.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-01.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view28.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">white t-shirt women</span>
+						<span class="d-block">$ 56.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/wallet_1200x1486.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view29.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">lather walleet [man]</span>
+						<span class="d-block">$ 108.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/712G5nmGvFL._AC_UX569__1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view30.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">full kit for kid [boy]</span>
+						<span class="d-block">$ 165.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-03.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view31.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Cotton shirt man</span>
+						<span class="d-block">$ 123.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/trouser5.png"  class="img-fluid d-block mx-auto" height="1486px" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view32.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Vintage Men's Jeans</span>
+						<span class="d-block">$ 44.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/earrings_1200x1486.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view33.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Earings [girl]</span>
+						<span class="d-block">$ 10.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-05.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view34.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">denim shirt women</span>
+						<span class="d-block">$ 123.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/habaya2.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view35.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Women's Solid Abaya</span>
+						<span class="d-block">$ 63.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/01_51406302_2_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view36.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">full kit for a boy</span>
+						<span class="d-block">$ 103.35</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-02.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view37.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">white shirt women</span>
+						<span class="d-block">$ 73.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/bottom4_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view38.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">denim for girl</span>
+						<span class="d-block">$ 75.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/pink-tshirt_1200x1486.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view39.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">pink color t-shirt [boy]</span>
+						<span class="d-block">$ 43.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/71euhK2LVL._AC_UX522__1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view40.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">party frock with band</span>
+						<span class="d-block">$ 166.30</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-04.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view41.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">leather jacket [girl]</span>
+						<span class="d-block">$ 223.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/habaya1.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view42.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Women's Muslim Abaya Dress </span>
+						<span class="d-block">$ 53.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/poplin-shirt.jpg"  class="img-fluid d-block mx-auto" height="1486px" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view43.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">white color ankel shirt</span>
+						<span class="d-block">$ 94.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/bottom6_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view44.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">cotton trouser [girl]</span>
+						<span class="d-block">$ 98.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/blue-ring_1200x1486.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view45.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Blue ring [girl]</span>
+						<span class="d-block">$ 08.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/71MgHdyi0hL._AC_SX522._SX._UX._SY._UY__1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view46.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Party Wear Kurti and Palazzo [Girl]</span>
+						<span class="d-block">$ 60.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/white_kid_jak.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view47.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Jean Jacket Kids [girl]</span>
+						<span class="d-block">$ 55.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/kid_denim_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view48.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Toddler Boys' Pull-On Denim Pant</span>
+						<span class="d-block">$ 28.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/trouser2.png"  class="img-fluid d-block mx-auto" height="1486px" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view49.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Men's casual linnen pant</span>
+						<span class="d-block">$ 39.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/bagpacks-5_1200x1486.png" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view50.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">red color comfortable bag</span>
+						<span class="d-block">$ 63.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 womens">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/bottom1_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view51.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">sky-blue denim [girl]</span>
+						<span class="d-block">$ 85.55</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/trouser3.png"  class="img-fluid d-block mx-auto" height="1486px" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view52.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">Chinno pants</span>
+						<span class="d-block">$ 69.23</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="images/product-14.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view53.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">t-shirt women</span>
+						<span class="d-block">$ 53.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 Kids">
+			<div class="product-item">
+				<div class="product-img">
+					<img src="new_images/tshirt4_1200x1486.jpg" class="img-fluid d-block mx-auto" alt="">
+					<div class="icon_inside" id="re">
+						<span><i class="fa-solid fa-cart-plus"></i></span>
+					</div>
+					<a href="product_view54.html"><button class="btnc">+ Quick View</button></a>
+					<div class="product-content text-center py-3">
+						<span class="d-block text-uppercase fw-bold">full slive t-shirt</span>
+						<span class="d-block">$ 73.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ====================================footer============================ -->
+
+<footer class="bg-dark py-5 mt-5" id="foot">
+	<div class="container">
+		<div class="row  row_f text-white g-4">
+			<div class="col-md-6 col-lg-3">
+				<span>
+					<i class="fa-solid fa-person-walking-luggage" id="nav_i"></i>
+				</span>
+				<a class="navbar-brand" href="index.html">NZ fashion</a>
+				<p class="text-white pf text-muted mt-4">Lorem ipsum dolor sit amet 
+					consectetur adipisicing elit. Dignissimos mollitia exercitationem 
+					fugit molestiae et, cumque laborum quos eius sit quia?</p>
+			</div>
+
+			<div class="col-md-6 col-lg-3">
+				<h5 class="fw-light">Links</h5>
+				<ul class="">
+					<li class="my-3">
+						<a href="#" class="text-white text-decoration-none text-muted fl">
+							<i class="fa-solid fa-chevron-right" id="f_1"></i> Home
+						</a>
+					</li>
+					<li class="my-3">
+						<a href="#" class="text-white text-decoration-none text-muted fl">
+							<i class="fa-solid fa-chevron-right" id="f_1"></i> Services
+						</a>
+					</li>
+					<li class="my-3">
+						<a href="#" class="text-white text-decoration-none text-muted fl">
+							<i class="fa-solid fa-chevron-right" id="f_1"></i> About
+						</a>
+					</li>
+					<li class="my-3">
+						<a href="#" class="text-white text-decoration-none text-muted fl">
+							<i class="fa-solid fa-chevron-right" id="f_1"></i> Products
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<h5 class="fw-light mb-3 ">Contact Us</h5>
+				<div class="d-flex justify-content-start align-items-start my-2 text-muted">
+					<span class="">
+						<i class="fas fa-map-marked-alt" id="f_1"></i>
+					</span>
+					<span class="fw-light fl">
+						No: 02, Main Street, Kandy, SriLanka
+					</span>
+				</div>
+				<div class="d-flex justify-content-start align-items-start my-2 text-muted">
+					<span class="">
+						<i class="fas fa-envelope" id="f_1"></i>
+					</span>
+					<span class="fw-light fl">
+						nzfashion@gmail.com
+					</span>
+				</div>
+				<div class="d-flex justify-content-start align-items-start my-2 text-muted">
+					<span class="">
+						<i class="fas fa-phone-alt" id="f_1"></i>
+					</span>
+					<span class="fw-light fl">
+						+94 000 000 000
+					</span>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<h5 class="fw-light mb-3"> Follow Us</h5>
+				<div>
+					<ul class="list-unstyled d-flex">
+						<li>
+							<a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+								<i class="fab fa-facebook-f"  id="f_1"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+								<i class="fab fa-twitter"  id="f_1"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+								<i class="fa-brands fa-instagram" id="f_1"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+								<i class="fab fa-linkedin"  id="f_1"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

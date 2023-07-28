@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+#nav_i{
+    color: rgb(238, 11, 105);
+    font-size: 1.8rem;
+    padding-right: 10px;
+    cursor: pointer;
+}
+  
+#nav_i:hover{
+    color: #000;
+}
+  
+.navbar-brand{
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(238, 11, 105);
+    /* font-family: 'Niconne', cursive; */
+	font-family: 'Roboto Slab', serif;
+   
+}
+  
+.navbar-brand:hover{
+    color: black;
+}
+  
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+  
+.nav-item a:hover{
+    color: rgb(238, 11, 105);
+}
+  
+.fa-regular, .fa-solid{
+  color: rgb(238, 11, 105);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-regular:hover{
+  color: #000;
+}
+
+.fa-solid:hover{
+  color: #000;
+}
+  
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================contact css=================== */
+
+.spad{
+	font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ah1{
+	font-weight: 800;
+	font-size: 2.6rem;
+  
+}
+
+.map {
+	padding-top: 80px;
+	padding-bottom: 0;
+}
+
+.map-inner {
+	height: 610px;
+	position: relative;
+}
+
+.map-inner iframe {
+	width: 100%;
+}
+
+.map-inner .icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-14px, -21px);
+	-ms-transform: translate(-14px, -21px);
+	transform: translate(-14px, -21px);
+}
+
+.map-inner .icon i {
+	font-size: 48px;
+	color: #000;
+}
+
+
+.contact-section {
+	padding-top: 75px;
+	padding-bottom: 80px;
+}
+
+.contact-title {
+	margin-bottom: 30px;
+}
+
+.contact-title h4 {
+	color: #252525;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.contact-widget .cw-item {
+	background: #ffffff;
+	margin-bottom: 11px;
+	-webkit-box-shadow: 0px 8px 35px 10px #E8E8E8;
+	box-shadow: 0px 8px 35px 10px #E8E8E8;
+	padding-left: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+}
+
+.contact-widget .cw-item .ci-icon {
+	float: left;
+	margin-top: 12px;
+}
+
+.contact-widget .cw-item .ci-icon i {
+	font-size: 30px;
+	color: #b2b2b2;
+}
+
+.contact-widget .cw-item .ci-text {
+	display: table;
+	padding-left: 30px;
+}
+
+.contact-widget .cw-item .ci-text span {
+	color: #b2b2b2;
+	font-size: 16px;
+}
+
+.contact-widget .cw-item .ci-text p {
+	font-size: 18px;
+	color: #252525;
+	margin-bottom: 0;
+}
+
+.contact-form .leave-comment h4 {
+	color: #292f3b;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.contact-form .leave-comment p {
+	margin-bottom: 38px;
+}
+
+.contact-form .leave-comment .comment-form input {
+	width: 100%;
+	font-size: 16px;
+	color: #636363;
+	height: 50px;
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.contact-form .leave-comment .comment-form textarea {
+	width: 100%;
+	resize: none;
+	font-size: 16px;
+	color: #636363;
+	height: 150px;
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 35px;
+}
+
+.contact-form .leave-comment .comment-form .site-btn {
+	padding: 13px 35px 11px;
+}
+
+.site-btn{
+	background-color: rgb(238, 11, 105);
+	color: #ffffff;
+	border: none !important;
+	border-radius: 35px;
+	font-weight: bold;
+}
+
+.site-btn:hover{
+    background-color: transparent;
+    color: black;
+	border: 2px solid rgb(238, 11, 105) !important;
+
+}
+
+
+/* ===========footer============================= */
+
+#foot{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.pf{
+    color: #6c757d !important;
+    
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+  
+#f_1{
+    color: #6c757d !important;
+}
+  
+.fl{
+    display: block!important;
+    color: #6c757d !important;
+    text-decoration: none !important;
+}
+  
+.footer a{
+    transition: color 0.3s ease;
+  
+}
+  
+.footer a:hove{
+    color: rgb(238, 11, 105) !important;
+}
